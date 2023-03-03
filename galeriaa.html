@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Sobre Mi</title>
+        <style>
+            .img-cont {
+              text-align: center;
+              display: block;
+            }
+          </style>
+    </head>
+    <body>
+        <header>
+            <style>
+                .menu{
+    width: 900px;
+    margin: 0 auto;
+}
+body{
+    background-color: #e6d7ec;
+}
+
+header{
+    background-color: #e6d7ec;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+#fondoo{
+    background-color: rgb(174, 144, 194);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    background: #e8b4f1cb;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #e8b4f1cb;
+    height: 5px;
+    top: 0;
+    position:absolute;
+}
+nav ul li a :hover::before{
+    width: 100%;
+}
+            </style>
+        <div class="menu">
+            <nav>
+            <ul> 
+            <section id="hero"></section>
+            <li> <a href="index.html">Inicio</a></li>
+            <li> <a href="datosp.html">Datos Personales</a></li>
+            <li> <a href="sobremi.html">Sobre Mi</a></li>
+            <li> <a href="galeriaa.html">Galería</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+        </nav>
+        </ul>
+          <div class="img-cont">
+            <img src="./Imágenes/galeria1.png" width="850 height="2500"/>
+            <img src="./Imágenes/galeria2.png" width="850 height="2500"/>
+          </div>
+        </div>
+       </header>
+    </body>
+
+</html>

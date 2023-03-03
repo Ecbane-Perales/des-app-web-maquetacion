@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: borer-box;
+
+}
+body{
+    background-image: url(/Imágenes/fondooooooo.jpg);
+}
+
+header{
+    background: #e8b4f1cb;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+#fondoo{
+    
+
+    background-color: rgb(211, 196, 221);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+img{
+    width: 120px;
+}
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    background: #e8b4f1cb;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #e8b4f1cb;
+    height: 5px;
+    top: 0;
+    position:absolute;
+}
+nav ul li a :hover::before{
+    width: 100%;
+}
+
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.project-detail img{
+    width: 100%;
+}
+
+.project-detail h2, h1{
+    text-align: center;
+}
+
+.project-detail{
+    border: 10px solid rgb(64, 80, 112)
+}
+.project-detail{
+    border-radius: 15px;
+}
+.project-detail{
+    width: 300px;
+    margin: 20px;
+}
